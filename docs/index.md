@@ -52,7 +52,7 @@ PYNQ-Z2:[/board_files](/board_files/).
   *	DDR3 controller for external DDR3_SDRAM memory
 
     <p align="center">
-    <img src ="./docs/pics/Readme/l1view.JPG" width="40%" height="80%"/>
+    <img src ="./pics/Readme/l1view.JPG" width="40%" height="80%"/>
     </p>
     <p align = "center">
     <i>Processor Design of this Lab</i>
@@ -62,7 +62,7 @@ PYNQ-Z2:[/board_files](/board_files/).
    This lab guides you through the process of extending the processing system you created in the previous lab by adding two GPIO (General Purpose Input/Output) IPs.
    
    <p align="center">
-   <img src ="./docs/pics/Readme/l2view.jpg" width="80%" height="80%"/>
+   <img src ="./pics/Readme/l2view.jpg" width="80%" height="80%"/>
    </p>
    <p align = "center">
    <i>Extend the System from the Previous Lab</i>
@@ -75,7 +75,7 @@ PYNQ-Z2:[/board_files](/board_files/).
   You will extend the Lab 2 hardware design by creating and adding an AXI peripheral to the system, and connecting it to the LEDs on the Zynq board you are using.  You will use the IP Packager to generate the custom IP.    Next, you will connect the peripheral to the system and add pin location constraints to connect the LED display controller peripheral to the on-board LED display.  Finally, you will add BRAM Controller and BRAM before generating the bitstream.
 
   <p align="center">
-  <img src ="./docs/pics/Readme/l3view.jpg" width="80%" height="80%"/>
+  <img src ="./pics/Readme/l3view.jpg" width="80%" height="80%"/>
   </p>
   <p align = "center">
   <i>Design updated from the previous lab</i>
@@ -94,7 +94,7 @@ PYNQ-Z2:[/board_files](/board_files/).
    You will use the hardware design created in lab 4 to use CPU’s private timer (see Figure).  You will develop the code to use it.
 
    <p align="center">
-   <img src ="./docs/pics/Readme/l5view.jpg" width="80%" height="80%"/>
+   <img src ="./pics/Readme/l5view.jpg" width="80%" height="80%"/>
    </p>
    <p align = "center">
    <i>Final design</i>
@@ -105,7 +105,7 @@ PYNQ-Z2:[/board_files](/board_files/).
   Software and hardware interact with each other in an embedded system. The Vitis includes System Debugger as a software debugging tool.  The hardware analyzer tool has different types of cores that allow hardware debugging by providing access to internal signals without requiring the signals to be connected to package pins. These hardware debug cores may reside in the programmable logic (PL) portion of the device and can be configured with several modes that can monitor signals within the design. In this lab you will be introduced to the various debugging cores.  
 
   <p align="center">
-  <img src ="././docs/pics/Readme/l6view.png" width="80%" height="80%"/>
+  <img src ="././pics/Readme/l6view.png" width="80%" height="80%"/>
   </p>
   <p align = "center">
   </p>
@@ -115,7 +115,7 @@ PYNQ-Z2:[/board_files](/board_files/).
   In Zynq, multiple interconnections are available between the PS and PL sections with different performance levels for data transfer between the two subsystems. The General Purpose (GP) Master and Slave AXI interconnect used in the previous labs are intended for peripherals that do not have high bandwidth requirements. E.g. switches, leds, keyboard, mouse. There are four High Performance PS slave to PL master AXI interfaces available for peripherals that need higher bandwidth. E.g. Video and image processing applications. This lab guides you through the process of enabling a High Performance AXI slave port in the PS, adding an AXI central DMA (CDMA) controller, and performing Direct Memory Access (DMA) operations between various memories.
 
   <p align="center">
-  <img src ="././docs/pics/Readme/l7view.png" width="80%" height="80%"/>
+  <img src ="././pics/Readme/l7view.png" width="80%" height="80%"/>
   </p>
   <p align = "center">
   </p>
@@ -124,6 +124,7 @@ PYNQ-Z2:[/board_files](/board_files/).
   This lab guides you through creating a bootable system capable of booting from the SD card or the QSPI flash memory located on the board. It also demonstrates how different bitstreams can be loaded in the PL section after the board is booted up and the corresponding application can be executed.
 
   <p align="center">
-  <img src ="././docs/pics/Readme/l8view.png" width="60%" height="60%"/>
+  <img src ="././pics/Readme/l8view.png" width="60%" height="60%"/>
   </p>
   <p align = "center">
+  </p>

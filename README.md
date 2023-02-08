@@ -127,3 +127,6 @@ PYNQ-Z2:[/board_files](/board_files/).
   <img src ="././docs/pics/Readme/l8view.png" width="60%" height="60%"/>
   </p>
   <p align = "center">
+  
+  ------------------------------------------------------
+<p align="center">Copyright&copy; 2022, Advanced Micro Devices, Inc.</p>

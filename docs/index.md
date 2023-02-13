@@ -13,7 +13,7 @@ On the main GitHub webpage for a repository, you can select **Clone or download*
 If you prefer to use **git** you can clone this repository:
 
 ```
-  git clone https://gitenterprise.xilinx.com/joshual/xup_Embedded_System_Design_Flow
+  git clone https://github.com/Xilinx/xup_embedded_system_design_flow
 ```
 In the instructions for the labs;
 
